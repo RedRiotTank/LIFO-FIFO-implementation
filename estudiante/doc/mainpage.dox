@@ -1,0 +1,43 @@
+/*! \mainpage Página principal
+
+# Introducción
+@image html ugr.png
+Implementación de la práctica 3 realizada por Alberto Plaza Montes e Ismael Tengo Rodríguez, alumnos de 2ºB1 para la asignatura Estructura de
+Datos correspondiente al grado de Ingeniería informática de la Universidad de Granada. \n\n
+En esta practica se realizan los tipos de datos abstractos MaxStack y MaxQueue.
+Una pila a partir de una cola, y una cola a partir de pila respectivamente.
+El elemento que se almacena en los contenedores anteriores es un struct 'element' compuesto por dos enteros, el valor almacenado y el máximo valor actual de la estructura.
+\n
+
+
+##MaxStack:
+
+Se trata de un TDA que actua a modo de pila. Cuenta además con las principales funciones de una pila, push(), pop(), top(), isEmpty() y size().
+La diferencia con respecto a la pila tradicional es que en esta se almacenan parejas de enteros, un número entero y el máximo de los números que hay
+debajo de la posición en la que nos encontramos (teniendo en cuenta que el mismo elemento podría tener el mayor número). \n\n\n
+
+
+@image html pila.png "1 Formato pila"
+
+
+##MaxQueue
+
+Se trata de un TDA que actua a modo de cola. Cuenta además con las principales funciones de una pila, push(), pop(), front(), isEmpty() y size().
+La diferencia con respecto a la cola tradicional es que en esta se almacenan parejas de enteros, el valor almacenado y el máximo valor actual de la cola.\n\n\n
+@image html cola.png "2 Formato cola"
+
+
+##Ejecutable pila_max
+
+Este ejecutable utiliza el TDA maxStack.
+Lleva a cabo un bucle recorriendo los argumentos del programa. Estos pueden ser números enteros o un punto (.)
+de modo que cuando el argumento es un número entero, lo introduce en la pila, y cuando es un '.' devuelve como resultado el tope de la pila.
+
+##Ejecutable cola_max
+
+Este ejecutable utiliza el TDA maxqueue.
+Lleva a cabo un bucle recorriendo los argumentos del programa. Estos pueden ser números enteros o un punto (.)
+de modo que cuando el argumento es un número entero, lo introduce en la cola, y cuando es un '.' devuelve como resultado el front de la cola.
+
+
+*/
